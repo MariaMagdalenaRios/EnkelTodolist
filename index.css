@@ -1,0 +1,25 @@
+body {
+      font-family: Arial, sans-serif;
+      max-width: 400px;
+      margin: 2rem auto;
+      text-align: center;
+    }
+    input {
+      padding: 8px;
+      width: 70%;
+    }
+    button {
+      padding: 8px 12px;
+      margin-left: 8px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      text-align: left;
+      background: #f4f4f4;
+      margin: 6px 0;
+      padding: 8px;
+      border-radius: 4px;
+    }
