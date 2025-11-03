@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enkel To do List</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Enkel To do List</h1>
-    <form id="task-form">
-        <input type="text" id="task-input" placeholder="Legg til ny oppgave" required>
-        <button type="submit">Legg til</button>
-    </form>
-    <ul id="task-list"></ul>
+    <div class="container">
+        <h1>Enkel To do List</h1>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Add new task" required>
+            <button type="submit">Add</button>
+        </form>
+        <div class="tasks-container">
+            <ul id="task-list"></ul>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
