@@ -1,2 +1,2 @@
 # EnkelTodolist
-att göra en enklare Todo-list applikation.
+Gör en enkel Todo-list applikation.
